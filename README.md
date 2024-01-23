@@ -1,10 +1,12 @@
-### Hi there 👋
-I am Alex Kozlov, I am a 2nd generation imagrint, 13 years old, I can fluently speak english and russian, And i am conversational in polish. I live in atlanta georgia.
+### Hello there! 👋
+
+My name is Alex Kozlov. As a 13-year-old, second-generation immigrant, I'm proud of my multilingual abilities, fluent in English and Russian, and conversational in Polish. I reside in Atlanta, Georgia.
+
 <!--
-**alexkozlovm/alexkozlovm** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**alexkozlovm/alexkozlovm** is a ✨ _special_ ✨ repository because its `README.md` (this file) is displayed on my GitHub profile.
 -->
 
-- 🔭 I’m currently working on contrubtuting to more open source projects 
-- 🌱 I’m currently learning Harvards CS50x Course
-- 📫 How to reach me: Email me: alexofthek@gmail.com or DM me on twitter: @Alexofthek_
-- 😄 Pronouns: He/Him
+- 🔭 Currently, I am dedicating my efforts to contributing more to open source projects.
+- 🌱 I am also deepening my knowledge by taking Harvard's CS50x Course.
+- 📫 To get in touch with me, you can email me at alexofthek@gmail.com or send a direct message on Twitter: @Alexofthek_.
+- 😄 Pronouns: He/Him.
