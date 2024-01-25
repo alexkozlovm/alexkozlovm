@@ -7,6 +7,6 @@ My name is Alex Kozlov. As a 13-year-old, second-generation immigrant, I'm proud
 -->
 
 - 🔭 Currently, I am dedicating my efforts to contributing more to open source projects.
-- 🌱 I am also deepening my knowledge by taking Harvard's CS50x Course.
+- 🌱 I am also deepening my knowledge by taking the Odin Project Course.
 - 📫 To get in touch with me, you can email me at alexofthek@gmail.com or send a direct message on Twitter: @Alexofthek_.
 - 😄 Pronouns: He/Him.
