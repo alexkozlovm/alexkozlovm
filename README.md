@@ -1,6 +1,6 @@
 ### Hello there! 👋
 
-My name is Alex Kozlov. As a 13-year-old, second-generation immigrant, I'm proud of my multilingual abilities, fluent in English and Russian, and conversational in Polish. I reside in Atlanta, Georgia.
+My name is Alex Kozlov. As a 13-year-old, second-generation immigrant, I'm proud of my bilingual abilities, fluent in English and Russian. I reside in Atlanta, Georgia.
 
 <!--
 **alexkozlovm/alexkozlovm** is a ✨ _special_ ✨ repository because its `README.md` (this file) is displayed on my GitHub profile.
