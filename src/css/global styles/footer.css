@@ -1,0 +1,24 @@
+footer {
+    padding: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #B43F3F;
+    color: rgb(235, 235, 235);
+    align-items: start;
+}
+#footer-2 a{
+    color: #ff994b;
+    text-decoration: underline;
+}
+footer div {
+    display: flex;
+    flex-direction: column;
+}
+footer h4{
+    font-size: 1.2rem;
+    margin-bottom: 6px;
+}
+footer a, p {
+    margin-top: 6px;
+    margin-bottom: 2px;
+}
