@@ -43,10 +43,13 @@
     font-size: 2rem;
     margin-bottom: 15px;
 }
-#blog-section h2, h3, span {
+#blog-section h3, span {
     color: #f57a1b;
     margin-bottom: 5px;
 }
 #blog-section p {
     font-size: 1.1rem;
+}
+.title-link {
+    color: #f57a1b;
 }
