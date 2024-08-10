@@ -3,7 +3,7 @@ footer {
     display: flex;
     justify-content: space-evenly;
     background-color: #B43F3F;
-    color: rgb(235, 235, 235);
+    color: #ebebeb;
     align-items: start;
 }
 #footer-2 a{
@@ -21,4 +21,18 @@ footer h4{
 footer a, p {
     margin-top: 6px;
     margin-bottom: 2px;
+}
+@media (max-width: 720px) {
+    footer {
+        flex-direction: column;
+    }
+    footer h4 {
+        font-size: 1.1rem;
+        margin-bottom: 1px;
+    }
+    footer a, p {
+        margin-top: 1px;
+        margin-bottom: 1px;
+        font-size:1rem;
+    }
 }

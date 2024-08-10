@@ -28,8 +28,14 @@
     justify-content: center;
     align-items: center;
 }
+@media (max-width: 720px) {
+    #blog-section {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
 #blog-section hr{
-    width: 700px;
+    width: 50%;
 }
 .blog-card {
     padding: 1%;

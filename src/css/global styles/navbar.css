@@ -22,3 +22,11 @@ nav {
     letter-spacing: 2px;
     word-spacing: 4px;
 }
+@media (max-width: 720px) {
+    #nav-title {
+        font-size: 75%
+    }
+    nav {
+        justify-content: start;
+    }
+}
