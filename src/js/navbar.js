@@ -12,4 +12,4 @@ function displayNavBar (content){
     document.querySelector('nav').innerHTML = content;
 }
 const navbar = document.querySelector('nav')
-loadContent(navbar, "src/elements/navbar.txt");
+loadContent(navbar, "../../src/elements/navbar.txt");

@@ -12,4 +12,4 @@ function displayFooter (content){
     document.querySelector('footer').innerHTML = content;
 }
 const footer = document.querySelector('footer')
-loadContent(footer, "src/elements/footer.txt");
+loadContent(footer, "../../src/elements/footer.txt");
