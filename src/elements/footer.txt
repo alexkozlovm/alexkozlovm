@@ -1,0 +1,16 @@
+<div id="footer-1">
+            <h4>Residence</h4>
+            <p>Atlanta, Georgia</p>
+        </div>
+        <div id="footer-2">
+            <h4>Other Links</h4>
+            
+            <a href="https://github.com/alexkozlovm" target="_blank">Github</a>
+            <a href="https://replit.com/@alexkozlov2" target="_blank">Replit</a>
+            <a href="https://scratch.mit.edu/users/sashahaha/" target="_blank">Scratch</a>
+        </div>
+        <div id="footer-3">
+            <h4>Alex Kozlov</h4>
+            <p>Developing for the web since 2020</p>
+            <p>©2024 Alex Kozlov</p>
+        </div>

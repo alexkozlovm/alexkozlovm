@@ -1,0 +1,40 @@
+<div id="hero">
+<h1>Hi, I am Alex Kozlov!</h1>
+<p>I Write code for the web, and make updates to this page</p>
+</div>
+<div id="blog-section">
+<h2>Blog</h2>
+        <hr>
+        <div class="blog-card">
+            <h3 id=""><a class="title-link" href="/src/blog-posts/blog1.html">My Coding Journey so Far (Part 1)</a></h3>
+            <p>It has been a little over a month since I resumed my efforts to learn to code, I started around December 30, and I have been coding ever since. I am here to share everything I’ve learned so far.</p>
+            <p>Tags: 
+                <span>Learn to Code</span>,
+                <span>Front end</span>,
+                <span>Web development</span>,
+                <span>Freecodecamp</span>
+            </p>
+        </div>
+        <div class="blog-card">
+            <h3>Lorem Ipsum Blog Title</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Blog Desc eiusmod tempor incididunt ut labore et dolore magna aliqua. Blog eiusmod tempor incididunt ut labore et dolore magna aliqua. Description</p>
+            <p>Tags: 
+                <span>Lorem ipsum</span>,
+                <span>dolor</span>,
+                <span>consectetur</span>,
+                <span>labore</span>,
+                <span>blog tags</span>,
+            </p>
+        </div>
+        <div class="blog-card">
+            <h3>Lorem Ipsum Blog Title</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Blog Desc eiusmod tempor incididunt ut labore et dolore magna aliqua. Blog eiusmod tempor incididunt ut labore et dolore magna aliqua. Description</p>
+            <p>Tags: 
+                <span>Lorem ipsum</span>,
+                <span>dolor</span>,
+                <span>consectetur</span>,
+                <span>labore</span>,
+                <span>blog tags</span>,
+            </p>
+        </div>
+        </div>
