@@ -1,35 +1,37 @@
-function blogPost(name, tags, date, readTime) {
-this.name = name;
-this.tags = tags;
-this.date = date;
-this.readTime = readTime;
+function blogPost(id, content) {
+    this.id = id;
+    this.content = content;
 }
 
-const blog1 = new blogPost(
-    "My Coding Journey so far (Part 1)",
-    ["Learn to Code", "Web development", "Front end", "Freecodecamp"],
-    "Jan 24, 2024",
-    "4"
-)
+const blog1 = new blogPost("blog1", "")
+const blog2 = new blogPost("blog2", "")
 
-
-function postBlog(blogName, blogNameString) {
-
-    const title = document.getElementById(blogNameString + "Title");
-    const tags = document.getElementById(blogNameString + "Tags");
-    const dateAndReadTime = document.getElementById("blog1Date-ReadTime");
-
-    title.innerHTML = blogName.name;
-
-    let tagsResult = "";
-    for (let index = 0; index < 1; index++) {
-        const element = blogName.tags[index];
-        blogName.tags.forEach(element => {
-            tagsResult += element + ", ";
-        });
-    }
-    tags.innerHTML = tagsResult
-
-    dateAndReadTime.innerHTML = blogName.date + " | " + blogName.readTime + " mins"
+function loadContent(blog, fileName) {
+    fetch(fileName)
+        .then(response => response.text())
+        .then(data => {
+            blog.content = data;
+            postBlog(blog);
+        })
+        .catch(error => console.error('Error loading content:', error));
 }
-postBlog(blog1, "blog1");
+
+
+
+function postBlog(blog) {
+    const content = document.getElementById(blog.id+"Content");
+    content.innerHTML = blog.content;
+}
+
+let blog = blog1
+
+const mainElement = document.querySelector('main');
+const blog1ContentElement = document.getElementById('blog1Content');
+
+if (mainElement === blog1ContentElement) {
+    blog = blog1;
+} else {
+    console.log("The <main> element is NOT equal to blog1Content.");
+}
+
+loadContent(blog, blog.id +".txt");
