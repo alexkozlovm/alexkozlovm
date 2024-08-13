@@ -26,13 +26,15 @@ footer a, p {
     footer {
         flex-direction: column;
     }
+}
+@media (max-width: 500px) {
     footer h4 {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         margin-bottom: 1px;
     }
     footer a, p {
         margin-top: 1px;
         margin-bottom: 1px;
-        font-size:1rem;
+        font-size:1.1rem;
     }
 }

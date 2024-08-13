@@ -24,7 +24,7 @@ nav {
 }
 @media (max-width: 720px) {
     #nav-title {
-        font-size: 75%
+        font-size: 75%;
     }
     nav {
         justify-content: start;
