@@ -1,6 +1,6 @@
 <a href="/index.html" class="nav-link" id="nav-title">ALEX KOZLOV</a>
         <div id="page-links">
-            <a href="../src/pages/blog.html" class="nav-link">BLOG</a>
-            <a href="../src/pages/portfolio.html" class="nav-link">PORTFOLIO</a>
-            <a href="../src/pages/about.html" class="nav-link">ABOUT</a>
+            <a href="../../src/pages/blog.html" class="nav-link">BLOG</a>
+            <a href="../../src/pages/portfolio.html" class="nav-link">PORTFOLIO</a>
+            <a href="../../src/pages/about.html" class="nav-link">ABOUT</a>
         </div>
