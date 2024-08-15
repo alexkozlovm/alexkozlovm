@@ -1,0 +1,17 @@
+#portfolio {
+    padding: 1%;
+}
+#portfolio-grid {
+    padding: 1%;
+    padding-bottom: 2%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, auto);
+    gap: 2%;
+}
+
+#portfolio-grid img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}t

@@ -4,7 +4,7 @@ function blogPost(id, content) {
 }
 
 const blog1 = new blogPost("blog1", "")
-const blog2 = new blogPost("blog2", "")
+zs
 
 function loadContent(blog, fileName) {
     fetch(fileName)
