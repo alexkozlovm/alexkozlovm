@@ -3,10 +3,10 @@
 }
 #portfolio-grid {
     padding: 1%;
-    padding-bottom: 2%;
+    padding-bottom: 12%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(6, auto);
+    grid-template-rows: repeat(4, auto);
     gap: 2%;
 }
 

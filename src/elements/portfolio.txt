@@ -1,0 +1,28 @@
+<h1>Portfolio</h1>
+        <p>You can find my latest open source code on <a href="https://github.com/alexkozlovm">Github</a>. Here are some examples of my past and current work.</p>
+        <div id="portfolio-grid">
+            <a target="_blank" href="https://alexkozlovm.github.io/Admin-Dashboard/">
+                <img id="img1" src="../../images/Admin-Dashboard.png" alt="Admin Dashboard Image">
+            </a>
+            <a target="_blank" href="https://alexkozlovm.github.io/Rock-Paper-Scissors/">
+                <img id="img2" src="../../images/Rock-Paper-Scissors.png" alt="Rock Paper Scissors Game Image">
+            </a>
+            <a target="_blank" href="https://alexkozlovm.github.io/Etch-a-sketch/">
+                <img id="img3" src="../../images/Etch-a-Sketch.png" alt="Etch-a-sketch Image">
+            </a>
+            <a target="_blank" href="https://alexkozlovm.github.io/calculator/">
+                <img id="img4" src="../../images/Calculator.png" alt="Calculator Image">
+            </a>
+            <a target="_blank" href="https://alexkozlovm.github.io/Landing-Page/">
+                <img id="img5" src="../../images/Landing-Page.png" alt="Landing Page Image">
+            </a>
+            <a target="_blank" href="https://alexkozlovm.github.io/Responsive-Web-Design-Projects/technical-documentation-page/index.html">
+                <img id="img6" src="../../images/Technical-Docs.png" alt="Technical Documentation Image">
+            </a>
+            <a target="_blank" href="https://alexkozlovm.github.io/Responsive-Web-Design-Projects/portfolio/index.html">
+                <img id="img7" src="../../images/Portfolio-v1.png" alt="Portfolio V1 Image">
+            </a>
+            <a target="_blank" href="https://alexkozlovm.github.io/Responsive-Web-Design-Projects/product-landing-page/index.html">
+                <img id="img8" src="../../images/Product-Page.png" alt="Product Page Image">
+            </a>
+        </div>

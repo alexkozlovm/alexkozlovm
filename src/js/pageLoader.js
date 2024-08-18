@@ -3,6 +3,7 @@ const navbar = document.querySelector('nav');
 const footer = document.querySelector('footer');
 const about = document.getElementById('about');
 const blog1 = document.getElementById('blog1Content');
+const portfolio = document.getElementById('portfolio');
 
 function loadContent(content, fileName, element) {
     fetch(fileName)
@@ -23,6 +24,9 @@ function loadContent(content, fileName, element) {
             }
             if (element === "blog1") {
                 blog1.innerHTML = content;
+            } 
+            if (element === "portfolio") {
+                portfolio.innerHTML = content;
             }
         })
         .catch(error => console.error('Error loading content:', error));
@@ -33,4 +37,6 @@ loadContent(footer, "../../src/elements/footer.txt", 'footer');
 loadContent(navbar, "../../src/elements/navbar.txt", 'navbar');
 loadContent(index, "../../src/elements/index.txt", 'index');
 loadContent(about, "../../src/elements/about.txt", 'about');
-loadContent(about, "../../src/blog-posts/text-files/blog1.txt", 'blog1');
+loadContent(blog1, "../../src/blog-posts/text-files/blog1.txt", 'blog1');
+loadContent(portfolio, "../../src/elements/portfolio.txt", 'portfolio');
+
