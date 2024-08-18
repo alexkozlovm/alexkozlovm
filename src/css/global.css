@@ -26,12 +26,12 @@ time, mark, audio, video {
 }
 @media (max-width: 1024px) {
     html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video {
-        font-size: 80%;
+        font-size: 86%;
     }
 }
 @media (max-width: 720px) {
         html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video {
-            font-size: 75%;
+            font-size: 80%;
         }
 }
 /* HTML5 display-role reset for older browsers */
@@ -56,4 +56,71 @@ q:before, q:after {
 table {
     border-collapse: collapse;
     border-spacing: 0;
+}
+
+
+nav {
+    display: flex;
+    padding: 2.5%;
+    justify-content: space-between;
+    background-color: #e76a0b;
+    color: rgb(235, 235, 235);
+    font-size: 1.2rem
+}
+.nav-link {
+    color: rgb(235, 235, 235);
+    margin-left: 1rem;
+    letter-spacing: 1px;
+}
+#page-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav-title {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+}
+@media (max-width: 720px) {
+    nav {
+        justify-content: start;
+    }
+    .nav-link {
+        font-size: 0.9rem;
+    }
+}
+
+
+
+footer {
+    padding: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #B43F3F;
+    color: #ebebeb;
+    align-items: start;
+}
+#footer-2 a{
+    color: #ff994b;
+    text-decoration: underline;
+}
+footer div {
+    display: flex;
+    flex-direction: column;
+}
+footer h4{
+    font-size: 1.2rem;
+    margin-bottom: 6px;
+}
+footer a, p {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-size: 1rem;
+}
+@media (max-width: 720px) {
+    footer {
+        flex-direction: column;
+    }
 }
